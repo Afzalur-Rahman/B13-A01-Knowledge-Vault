@@ -80,11 +80,10 @@ nav a {
 }
 
 .banner .small-heading {
-
   /* width: 500px; */
   /* height: 35px; */
-/* +  gap: 6px; */
-border-radius: 1000px;
+  /* +  gap: 6px; */
+  border-radius: 1000px;
   background-color: #ffffff;
 
   color: #30b868;
@@ -93,15 +92,28 @@ border-radius: 1000px;
 
 .banner .small-heading h4 {
   padding: 8px 12px;
-    border: 8px 12px;
-gap: 6px;
+  border: 8px 12px;
+  gap: 6px;
   font-size: 16px;
   font-weight: 500;
   line-height: auto;
 }
 
+.banner h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 72;
+  font-weight: bold;
+}
 .banner .green-font-header {
   color: #30b868;
+}
+
+.banner p {
+  line-height: 24px;
+  font-size: 18px;
+  font-size: regular;
+  text-align: center;
 }
 
 .banner .transparent-btn {
