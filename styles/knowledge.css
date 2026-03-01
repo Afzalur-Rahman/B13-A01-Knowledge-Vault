@@ -80,16 +80,24 @@ nav a {
 }
 
 .banner .small-heading {
-  padding: 8px 12px;
-  display: flex;
-  /* gap: 6px; */
-  border-radius: 1000px;
+
+  /* width: 500px; */
+  /* height: 35px; */
+/* +  gap: 6px; */
+border-radius: 1000px;
   background-color: #ffffff;
- 
+
+  color: #30b868;
+  align-items: center;
+}
+
+.banner .small-heading h4 {
+  padding: 8px 12px;
+    border: 8px 12px;
+gap: 6px;
   font-size: 16px;
   font-weight: 500;
   line-height: auto;
-  color: #30b868;
 }
 
 .banner .green-font-header {
