@@ -138,21 +138,26 @@ nav a {
 .notes {
   margin: 0px 120px 120px 120px;
   background-color: rgb(253, 252, 250);
+  gap: 44px;
+
 }
 
 .notes-headline {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   gap: 16px;
+  margin-bottom: 44px;
 }
 
 .notes-headline h2 {
   font-size: 48px;
   font-weight: bold;
   line-height: auto;
+}
+#card1 {
+  border: 1px solid black;
 }
 
 .notes-headline p {
@@ -193,6 +198,7 @@ nav a {
 .brain-section {
   display: flex;
   margin: 120px;
+
 }
 
 .brain-img {
