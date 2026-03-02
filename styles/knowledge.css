@@ -37,7 +37,7 @@ nav a {
   color: black;
   text-decoration: none;
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   opacity: 90%;
 }
 
@@ -103,7 +103,7 @@ nav a {
   color: #ffffff;
   text-align: center;
   font-size: 72;
-  font-weight: bold;
+  font-weight: 700;
 }
 .banner .green-font-header {
   color: #30b868;
@@ -122,7 +122,7 @@ nav a {
 
 .banner .transparent-btn {
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   align-items: center;
   gap: 10px;
   padding: 12px 16px;
@@ -152,16 +152,17 @@ nav a {
 
 .notes-headline h2 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: auto;
 }
+
 #card1 {
   border: 1px solid black;
 }
 
-.notes-headline p {
+.notes p {
   font-size: 16px;
-  font-weight: Regular;
+  font-weight: 400;
   line-height: 20px;
   align-items: center;
   align-items: top;
@@ -186,10 +187,16 @@ nav a {
 }
 
 .card img {
-  padding: 10px;
+  padding: 14px;
   background-color: #f95555;
   color: #ffffff;
   border-radius: 50%;
+}
+
+.card h3 {
+  font-weight: 600;
+  font-size: 24;
+  line-height: auto;
 }
 
 /* brain section  */
@@ -210,16 +217,30 @@ nav a {
   flex-direction: column;
   margin: 102px 0 102px 60px;
   gap: 40px;
+  text-align: left;
+  max-width: 600px;
 }
 
 .brain-headline {
   gap: 16px;
 }
+.brain-headline h2 {
+  font-size: 48px;
+  font-weight: 700;
+  /* line-height: normal; */
+}
+
 .brain-headline h4 {
   font-size: 16px;
-  font-weight: Medium;
-  line-height: 20px;
+  font-weight: 500;
+  /* line-height: 20px; */
   color: #30b868;
+}
+
+.brain-headline p {
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 20; */
 }
 
 .brain-check {
@@ -227,6 +248,9 @@ nav a {
   height: 128px;
   gap: 16px;
   align-items: top left;
+  font-size: 16px;
+  font-weight: 500;
+  /* line-height: 20; */
 }
 
 /* ready section  */
@@ -245,18 +269,22 @@ nav a {
   padding: 80px 40px;
 }
 
-.ready-headline p {
+.ready-headline h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.ready-headline p,
+.ready-others p {
   color: #627382;
   line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .ready-others {
   width: 1280px;
   height: 88px;
-}
-
-.ready-others p {
-  color: #627382;
 }
 
 /* footererrer 
@@ -290,14 +318,10 @@ footer {
   gap: 16px;
 }
 
-
-footer hr{
-
-border: none;
-height: 1px;
-background-color: #5e5e66;
-
-
+footer hr {
+  border: none;
+  height: 1px;
+  background-color: #5e5e66;
 }
 .footer-rights {
   text-align: center;
