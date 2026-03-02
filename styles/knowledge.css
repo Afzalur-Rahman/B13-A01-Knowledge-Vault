@@ -139,7 +139,6 @@ nav a {
   margin: 0px 120px 120px 120px;
   background-color: rgb(253, 252, 250);
   gap: 44px;
-
 }
 
 .notes-headline {
@@ -198,7 +197,6 @@ nav a {
 .brain-section {
   display: flex;
   margin: 120px;
-
 }
 
 .brain-img {
@@ -292,6 +290,15 @@ footer {
   gap: 16px;
 }
 
+
+footer hr{
+
+border: none;
+height: 1px;
+background-color: #5e5e66;
+
+
+}
 .footer-rights {
   text-align: center;
 
