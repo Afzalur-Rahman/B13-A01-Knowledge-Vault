@@ -56,6 +56,10 @@ nav a {
   background-color: #30b868;
 }
 
+
+.btn:hover{
+    cursor: pointer;
+}
 /* banner part  */
 
 .banner {
@@ -97,7 +101,7 @@ nav a {
   gap: 6px;
   font-size: 16px;
   font-weight: 500;
-  line-height: auto;
+  line-height: normal;
 }
 
 .banner h1 {
@@ -105,6 +109,7 @@ nav a {
   text-align: center;
   font-size: 72;
   font-weight: 700;
+  /* line-height: 84px; */
 }
 .banner .green-font-header {
   color: #30b868;
@@ -133,6 +138,10 @@ nav a {
   color: #ffffff;
   background-color: transparent;
 }
+.transparent-btn:hover{
+    cursor: pointer;
+}
+
 
 /* notes dont fail section  */
 
@@ -216,14 +225,15 @@ nav a {
 .brain-text {
   display: flex;
   flex-direction: column;
-  margin: 102px 0 102px 60px;
+  margin: 60px 0 0 60px ;
+  /* margin-left: 50px; */
   gap: 40px;
   text-align: left;
   max-width: 600px;
 }
 
 .brain-headline {
-  gap: 16px;
+  /* gap: 16px; */
 }
 .brain-headline h2 {
   font-size: 48px;
@@ -245,8 +255,8 @@ nav a {
 }
 
 .brain-check {
-  width: 700px;
-  height: 128px;
+  /* width: 700px;
+  height: 128px; */
   gap: 16px;
   align-items: top left;
   font-size: 16px;
@@ -302,7 +312,10 @@ footer {
 .footer-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
+
 
 .footer-links h4 {
   color: #ffffff;
