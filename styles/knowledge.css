@@ -9,6 +9,7 @@ box-sizing: border-box;
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  max-width: 1536px;
 }
 
 nav {
